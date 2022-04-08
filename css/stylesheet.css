@@ -12,11 +12,13 @@ body{
   border-radius: 50%;
   border: 2px solid whitesmoke;
 }
+
 header {
   text-align: center;
   background-color:#343330;
   color:aliceblue;
   justify-content: center;
+  padding-top: 1rem;
 }
 
 #heading{
@@ -32,6 +34,7 @@ header {
   color:#343330;
   padding: 1rem;
 }
+
 .navList{
   list-style-type: none;
   padding: 0%;
@@ -44,15 +47,6 @@ flex-direction: row;
 overflow: unset;
 }
 
-}
-
-h2 {
-  font-size: 40px;
-  background-color: #ccc;
-  margin: 20px;
-  padding: 40px;
-}
-
 .content{
   padding: 2rem;
 }
@@ -61,12 +55,12 @@ footer {
   background-color: #343330;
   text-align: center;
   color: azure;
-  align-items: center;
 }
+
 .icons{
   width: 3rem;
   margin: 0.5rem;
   height: auto;
-  border-radius: 40%;
+  border-radius: 70%;
   align-items: center;
 }
