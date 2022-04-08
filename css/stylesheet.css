@@ -2,6 +2,8 @@ body{
   font-family: 'sans-serif', 'arial';
   font-size:110%;
   background-color:whitesmoke;
+  display: flex;
+  flex-direction: column;
 }
 
 #ProfilePhoto{
@@ -14,6 +16,7 @@ header {
   text-align: center;
   background-color:#343330;
   color:aliceblue;
+  justify-content: center;
 }
 
 #heading{
@@ -36,8 +39,9 @@ header {
 }
 
 .main{
-  padding: 30px;
-  margin: 20px;
+display: flex;
+flex-direction: row;
+overflow: unset;
 }
 
 }
@@ -47,6 +51,10 @@ h2 {
   background-color: #ccc;
   margin: 20px;
   padding: 40px;
+}
+
+.content{
+  padding: 2rem;
 }
 
 footer {
